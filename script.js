@@ -2,7 +2,7 @@ const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 
 const dinosaur = new Image();
-dinosaur.src = 'images/dino.png'; // Cambia la ruta a tu sprite del dinosaurio
+dinosaur.src = 'dino.png'; // Cambia la ruta a tu sprite del dinosaurio
 
 const cactus = new Image();
 cactus.src = 'images/cactus.png'; // Cambia la ruta a tu sprite del cactus
