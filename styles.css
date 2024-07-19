@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-container {
+    position: relative;
+}
+
+#message {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6347; /* Color del texto */
+    z-index: 10; /* Asegura que el mensaje esté por encima del canvas */
+}
+
+canvas {
+    border: 1px solid #000;
+    display: block; /* Asegura que el canvas no tenga márgenes innecesarios */
+}
