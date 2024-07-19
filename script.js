@@ -2,10 +2,10 @@ const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 
 const dinosaur = new Image();
-dinosaur.src = 'dino.png'; // Cambia la ruta a tu sprite del dinosaurio
+dinosaur.src = 'images/dino.png'; // Cambia la ruta a tu sprite del dinosaurio
 
 const cactus = new Image();
-cactus.src = 'cactus.png'; // Cambia la ruta a tu sprite del cactus
+cactus.src = 'images/cactus.png'; // Cambia la ruta a tu sprite del cactus
 
 const jumpSound = new Audio('sounds/jump.mp3'); // Agrega un archivo de sonido para el salto si lo deseas
 
